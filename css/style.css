@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-principal {
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  padding: 8rem;
+}
+
+.principal-logo {
+  font-size: 6rem;
+}
+
+.principal-titulo {
+  font-size: 3rem;
+}
+
+.principal-descricao {
+  margin: 3rem 0;
+}
+
+.botao {
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 100%;
+  height: 5.9rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.card {
+  background-color: #ffffff;
+  /* largura máxima */
+  max-width: 60rem;
+  overflow: hidden;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.card-cabecalho {
+  background-color: #7026d9;
+  height: 25rem;
+}
+
+.card-titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-conteudo {
+  color: #000000;
+  padding: 3rem 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  min-height: 14rem;
+}
+
+/*
+.card,
+.botao {
+  border-radius: 0.5rem;
+}
+*/
+
+.embacar {
+  filter: blur(5px);
+}
+
+/*
+fonte
+posicionamento
+espaçamento
+botoes
+card
+*/
